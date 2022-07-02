@@ -1,7 +1,11 @@
+import CartWidget from "./CartWidget";
+
+
+
 const Navbar = () => {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-success text-white">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
             Comercializadoras Fatto in casa 
@@ -35,6 +39,7 @@ const Navbar = () => {
                 </a>
               </li>
             </ul>
+          <CartWidget />
           </div>
         </div>
       </nav>
