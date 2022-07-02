@@ -7,7 +7,7 @@ const Navbar = () => {
     <div>
       <nav className="navbar navbar-expand-lg navbar-dark bg-success text-white">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand fw-bold fst-italic  text-uppercase" href="#">
             Comercializadoras Fatto in casa 
           </a>
           <button
@@ -24,17 +24,17 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarText">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+                <a className="nav-link active fw-bold fst-italic text-uppercase" aria-current="page" href="#">
                   Inicio
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link fw-bold fst-italic text-uppercase" href="#">
                   Contacto
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link fw-bold fst-italic text-uppercase" href="#">
                   Productos
                 </a>
               </li>
