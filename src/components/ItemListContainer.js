@@ -3,8 +3,16 @@ import ItemCount from "./ItemCount";
 import ItemList from "./ItemList";
 import Productos from "../Productos.json";
 const ItemListContainer = ({ greeting }) => {
+  
+  const asyncMockProductos = new Promise(function (resolve) {
+    setTimeout(() => {
+      resolve(Productos);
+    }, 2000);
+  });
+  
+  asyncMockProductos.then(console.log);
     
-    //console.log(Products);
+    
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
